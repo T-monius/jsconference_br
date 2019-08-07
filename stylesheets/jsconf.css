@@ -1,0 +1,133 @@
+@import url('meyers_reset.css');
+
+body {
+  font: 16px 'Helvetica', 'Arial', sans-serif;
+  color: #444444;
+}
+
+nav {
+  display: none;
+}
+
+figure {
+  text-align: center;
+}
+
+header figure {
+  background: url('../assets/images/dummy_background.png');
+  height: 300px;
+  color: #fff;
+}
+
+header img {
+  padding-top: 80px;
+}
+
+header figcaption {
+  font-size: 40px;
+}
+
+header figure p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  color: #4f4444;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: normal;
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* Tickets */
+
+section:first-of-type h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+.green_button {
+  display: block;
+  width: 60%;
+  color: #fff;
+  background-color: #008000;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+a:hover.green_button {
+  text-decoration: none;
+  background-color: darkgreen;
+}
+
+/* Speakers */
+
+.speakers h2 {
+  margin-top: 140px 0 50px 0;
+}
+
+.speakers li {
+  position: relative;
+}
+
+.speakers figure {
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.speakers figcaption {
+  color: #008000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+
+}
+
+.speakers dl {
+  display: none;
+  position: absolute;
+  height: 95%;
+  width: 95%;
+  margin: 0px 5px 10px 5px;
+  padding-bottom: 50px;
+  background: black;
+  color: #008000;
+  text-align: center;
+  top: 0;
+  opacity: .8;
+  z-index: 2;
+}
+
+.speakers dt {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.speakers dd {
+  color: #fff;
+  font-size: 12px;
+  margin: 5px 25px;
+}
+
+.speakers a {
+  color: #008000;
+}
+
+.speakers li:hover dl {
+  display: block;
+}
