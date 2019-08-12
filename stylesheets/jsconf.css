@@ -76,6 +76,10 @@ a:hover.green_button {
 
 /* Speakers */
 
+section:nth-of-type(2) {
+  margin-bottom: 200px;
+}
+
 .speakers h2 {
   margin-top: 140px 0 50px 0;
 }
@@ -131,3 +135,62 @@ a:hover.green_button {
 .speakers li:hover dl {
   display: block;
 }
+
+/* Schedule */
+
+.schedule ul {
+  display: block;
+  box-sizing: border-box;
+  font-size: 24px;
+  margin: 10px auto;
+  position: relative;
+  overflow: auto;
+  height: auto;
+  width: 80%;
+}
+
+.schedule li:first-of-type {
+  padding: 25px 15px 25px 0;
+  text-align: right;
+}
+
+.schedule li:nth-of-type(2) {
+  display: block;
+}
+
+.schedule li:nth-of-type(3) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.schedule img {
+  height: 65px;
+}
+
+.schedule dd {
+  color: #008000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*table {
+  table-layout: fixed;
+}
+
+thead {
+  display: none;
+}
+
+th[scope="row"] {
+  display: none;
+}
+
+td {
+  padding: 5px;
+  outline: 1px solid red;
+}
+
+td.img_container {
+  height: 65px;
+}*/

@@ -57,3 +57,10 @@
   + embedded text
 
 ### Schedule
+- Time
+  + Lines up next to a speaker's image if event related to a speaker
+- Event
+  + Event with a reference to a speaker links to their speaker profile
+
+### Location
+- Skip
