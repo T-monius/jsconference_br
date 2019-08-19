@@ -178,6 +178,8 @@ dd > a:visited {
   font-weight: bold;
 }
 
+/* Call for Papers */
+
 .paper {
   padding: 0 30px;
   line-height: 1.5;
@@ -187,38 +189,26 @@ dd > a:visited {
   margin-bottom: 15px;
 }
 
-.paper .green_button {
-  /*display: inline;*/
-  /*font-size: 12px;*/
-}
-
 p > a {
   color: #008000;
   font-weight: bold;
 }
+
+/* Sponsors */
 
 .sponsors h3 {
   padding-left: 20px;
   font-weight: bold;
 }
 
-/*table {
-  table-layout: fixed;
+/* Team */
+
+footer {
+  background: darkgrey url(../assets/images/team_background.jpg);
+  color: #fff;
 }
 
-thead {
-  display: none;
+footer a,
+footer a:hover {
+  color: #008000;
 }
-
-th[scope="row"] {
-  display: none;
-}
-
-td {
-  padding: 5px;
-  outline: 1px solid red;
-}
-
-td.img_container {
-  height: 65px;
-}*/
