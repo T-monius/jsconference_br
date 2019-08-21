@@ -220,9 +220,19 @@ footer > h2 {
 }
 
 .team h2 {
+  position: relative;
+  top: 50px;
+  left: -170px;
   font-size: 50px;
-  text-align: left;
+  color: #fff;
+  font-weight: bold;
 }
+
+.team p {
+  padding: 20px 0 40px 0;
+}
+
+.team 
 
 .team a,
 .team a:hover {
