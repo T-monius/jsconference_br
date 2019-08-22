@@ -204,7 +204,7 @@ p > a {
 /* Team */
 
 footer {
-  background: darkgrey url(../assets/images/team_background.jpg);
+  background: darkgray url(../assets/images/team_background.jpg);
   color: #fff;
 }
 
@@ -232,9 +232,23 @@ footer > h2 {
   padding: 20px 0 40px 0;
 }
 
-.team 
+.team li {
+  display: inline;
+  font-size: 32px;
+}
 
 .team a,
 .team a:hover {
   color: #008000;
+}
+
+#last_button {
+  display: block;
+  width: 60%;
+  color: #fff;
+  background-color: #008000;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
 }
