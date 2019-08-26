@@ -216,15 +216,15 @@ footer > h2 {
 .team {
   background: #000;
   opacity: .7;
-  padding: 0 30px;
+  padding: 0 30px 20px 30px;
 }
 
-.team h2 {
+.team  > h2 {
   position: relative;
   top: 50px;
+  color: #fff;
   left: -170px;
   font-size: 50px;
-  color: #fff;
   font-weight: bold;
 }
 
@@ -244,11 +244,11 @@ footer > h2 {
 
 #last_button {
   display: block;
-  width: 60%;
+  width: 40%;
   color: #fff;
   background-color: #008000;
   font-weight: bold;
   text-align: center;
-  margin: 0 auto;
-  padding: 10px 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
 }
